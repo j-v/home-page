@@ -1,0 +1,140 @@
+/* 
+    Document   : main
+    Created on : Jan 6, 2011, 6:46:23 PM
+    Author     : jvolkmar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background: #abd;
+/*    background-image: url('http://t3.gstatic.com/images?q=tbn:ANd9GcQM75kCq3bzsjarOrmfX-_yus70HehIXdpPUm_Gww0y-WhbeU707w');*/
+    background-image: url('img/bg/basn0g02.png');
+    margin:0;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+.main {
+    width: 700px;
+    margin: 0 auto 20px auto;
+
+/*    padding: 0;*/
+/*    background:black;*/
+/*    min-height: 500px;*/
+}
+
+.topMenu {
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-style: normal;
+    padding:5px;
+    background:black;
+    
+}
+
+
+a.topMenuItem {
+    width: 100px;
+    color: black;
+    text-decoration: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 2px solid white;
+    position:relative;
+    display:inline-block;
+    background: white;
+    margin:4px; padding:2px;
+}
+a.topMenuItem:hover{
+    color: white;
+    background: black;
+}
+
+a.topMenuItemSel {
+    color: white;
+    background:black;
+    cursor:default;
+    border-color:#fff;
+}
+a.topMenuItemSel:hover {
+    color: white;
+}
+
+.mainTitle {
+    background: #fff;
+    margin: 40px 0 40px 0;
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+    color:black;
+    padding:10px;
+    border:2px solid #88a;
+}
+
+.mainBlock {
+    background: #aac;
+    color:black;
+    margin: 10px;
+    padding:2px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-bottom:2em;
+    font-size:14px;
+}
+
+/*.mainBlockTitle {
+    color:#660099;
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 25px;
+    padding-top:10px;
+    padding-left:10px;
+}*/
+
+.mainBlockTitle {
+    background:none repeat scroll 0 0 white;
+    color:black;
+    font-family:Georgia,'Times New Roman',times,serif;
+    font-size:19px;
+    
+    padding:2px 10px;
+    margin-bottom: 5px;
+}
+
+.mainFooter {
+    text-align:center;
+    color:gray;
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.mainBlock p {
+    background:white;color:black;
+    padding:5px;
+    margin:5px;
+    margin-bottom: 10px;
+    border-bottom:2px solid #222255;
+    border-right:2px solid #222255;
+    line-height: 1.6em;
+}
+
